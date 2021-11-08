@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-slack
+  description: used by backoffice teams for chats and alerts (  )
+spec:
+  type: service
+  lifecycle: production
+  owner: [ BTG-Workplace ]
